@@ -1,0 +1,8 @@
+.App {
+  background-color: rgb(42, 136, 159);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-y: scroll;
+}

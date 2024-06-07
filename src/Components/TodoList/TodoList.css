@@ -1,0 +1,84 @@
+.container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add_todo_container {
+  margin-top: 100px;
+  height: 98px;
+  width: 450px;
+}
+
+.text_and_plus_container {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 450px;
+  background-color: rgb(40, 128, 185);
+  color: white;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.pen {
+  margin-left: 10px;
+}
+
+input {
+  width: 92.9%;
+  height: 36px;
+  outline: none;
+  font-size: 16px;
+  padding-left: 30px;
+  border: none;
+}
+
+button {
+  font-size: 38px;
+  border: none;
+  background-color: rgb(40, 128, 185);
+  margin-left: 200px;
+  color: white;
+  cursor: pointer;
+}
+
+.list {
+  height: 50px;
+  width: 448px;
+  border: solid 1px rgb(247, 247, 247);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  margin-left: 20px;
+  width: 80%;
+}
+
+.actions {
+  width: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.delete_action {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.ugochi {
+  margin-top: 100px;
+  color: white;
+  font-size: 12px;
+}
